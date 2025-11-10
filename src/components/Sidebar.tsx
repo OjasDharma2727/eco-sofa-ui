@@ -28,14 +28,14 @@ const Sidebar: React.FC = () => {
         </div>
       ))}
 
-      {/* FIX: Removing the <hr> and adding back the border-t on the div */}
+      {}
       <div className="mt-6 space-y-3 pt-6 border-t border-white/20">
         {/* FIX: Re-adding the "box" styling */}
         <div className="flex justify-between items-center cursor-pointer hover:bg-white/15 p-2 rounded-xl">
           <span className="font-medium text-base">Jute</span>
           <span className="text-xl">&gt;</span>
         </div>
-        {/* FIX: Re-adding the "box" styling */}
+        {}
         <div className="flex justify-between items-center cursor-pointer hover:bg-white/15 p-2 rounded-xl">
           <span className="font-medium text-base">Wecod</span>
           <span className="text-xl">&gt;</span>
