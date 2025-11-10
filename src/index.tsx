@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import "./index.css"; // This imports the Tailwind styles
+import "./index.css"; 
 
-const rootElement = document.getElementById("root")!; // Fixes TS error
+const rootElement = document.getElementById("root")!; 
 
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
